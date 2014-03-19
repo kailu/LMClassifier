@@ -1,7 +1,7 @@
 LMClassifier
 ============
 
-It's a heristic classifier build on top of berkeley LM: https://code.google.com/p/berkeleylm/
+It's a heuristic classifier build on top of berkeley LM: https://code.google.com/p/berkeleylm/
 
 Use the "lm.sh" script under <PRJ_DIR>/scripts foder to generate multiple binary LM models, then load it up with command:
     java -ea -mx2000m -server -cp ./*.jar edu.berkeley.nlp.lm.io.LMClassifier ./bin_model/
